@@ -1,0 +1,20 @@
+{
+  "distributions": [
+    {
+      "guides": "13c7c13f6b809abc4ba4fa04f01d9278.zip",
+      "integrity": "13c7c13f6b809abc4ba4fa04f01d9278",
+      "distribution": {
+        "min_app_version": "22.2.20",
+        "max_app_version": "22.2.29"
+      }
+    },
+    {
+      "guides": "f679f4825c82b225ec9e4568ee9a7367.zip",
+      "integrity": "f679f4825c82b225ec9e4568ee9a7367",
+      "distribution": {
+        "min_app_version": "22.2.30",
+        "max_app_version": ""
+      }
+    }
+  ]
+}
