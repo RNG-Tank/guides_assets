@@ -1,8 +1,8 @@
 {
   "guides": [
     {
-      "name": "SEEYOU",
-      "id": "108361",
+      "name": "NOOOO",
+      "id": "2018361",
       "delay_show": 0,
       "priority": 100,
       "activation": {
@@ -45,7 +45,7 @@
       "items": [
         {
           "type": "sheet",
-          "title": "WHATTTTT!",
+          "title": "please!",
           "content": "66666RingCentral app.",
           "action_title": "qweqwee a tour",
           "deep_link": "r/moremenu",
