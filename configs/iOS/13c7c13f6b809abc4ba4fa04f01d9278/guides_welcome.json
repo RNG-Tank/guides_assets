@@ -1,8 +1,8 @@
 {
   "guides": [
     {
-      "name": "welcome guide",
-      "id": "10001",
+      "name": "SEEYOU",
+      "id": "108732123",
       "delay_show": 0,
       "priority": 100,
       "activation": {
@@ -45,9 +45,9 @@
       "items": [
         {
           "type": "sheet",
-          "title": "Welcome!",
-          "content": "Take a tour of the RingCentral app.",
-          "action_title": "Take a tour",
+          "title": "881231236!",
+          "content": "66666RingCentral app.",
+          "action_title": "qweqwee a tour",
           "deep_link": "r/moremenu",
           "next_guide_id": "",
           "image_url": "https://app.ringcentral.com/assets/mobile/media/welcome/thumbnail.png",
@@ -121,7 +121,7 @@
     },
     {
       "name": "welcome guide",
-      "id": "10001",
+      "id": "100052",
       "delay_show": 0,
       "priority": 101,
       "activation": {
@@ -163,8 +163,8 @@
       "items": [
         {
           "type": "sheet",
-          "title": "Welcome!",
-          "content": "Take a tour of the RingCentral app.",
+          "title": "8888888886!",
+          "content": "Tqwewqtour of tqweqwewqeral app.",
           "action_title": "Take a tour",
           "deep_link": "r/moremenu",
           "next_guide_id": "",
