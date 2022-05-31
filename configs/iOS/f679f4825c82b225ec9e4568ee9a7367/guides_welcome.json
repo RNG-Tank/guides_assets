@@ -1,0 +1,460 @@
+{
+  "guides": [
+    {
+      "name": "welcome guide",
+      "id": "10001",
+      "delay_show": 0,
+      "priority": 100,
+      "activation": {
+        "page_view": "GlipUIRecentChatViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "2022.05.25",
+        "max_app_version": "",
+        "min_app_version": "22.2.20",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [
+          "MVP"
+        ],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "Message",
+            "Video",
+            "Phone"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "2022.05.25",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "sheet",
+          "title": "Welcome!",
+          "content": "Take a tour of the RingCentral app.",
+          "action_title": "Take a tour",
+          "deep_link": "r/moremenu",
+          "next_guide_id": "",
+          "image_url": "https://app.ringcentral.com/assets/mobile/media/welcome/thumbnail.png",
+          "video_url": "https://app.ringcentral.com/assets/mobile/media/welcome/video.mp4"
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMessagesBtn",
+          "view_type": "RCTabRightCell",
+          "title": "Message",
+          "content": "Get more work done with built-in team messaging, file sharing, and task management.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMeetingsBtn",
+          "view_type": "RCTabRightCell",
+          "title": "Video",
+          "content": "Easily start, schedule, and join video meetings.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabCallBtn",
+          "view_type": "RCTabRightCell",
+          "title": "Phone",
+          "content": "Make and receive calls, listen to voicemail, and more.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMoreBtn",
+          "view_type": "RCTabCell",
+          "title": "More",
+          "content": "Access more features, and customize which tabs appear in the bottom navigation bar for quicker access.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "welcome guide",
+      "id": "10001",
+      "delay_show": 0,
+      "priority": 101,
+      "activation": {
+        "page_view": "GlipUIRecentChatViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "2022.05.25",
+        "max_app_version": "",
+        "min_app_version": "22.2.20",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [
+          "Phoenix"
+        ],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "Message",
+            "Video"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "2022.05.25",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "sheet",
+          "title": "Welcome!",
+          "content": "Take a tour of the RingCentral app.",
+          "action_title": "Take a tour",
+          "deep_link": "r/moremenu",
+          "next_guide_id": "",
+          "image_url": "https://app.ringcentral.com/assets/mobile/media/welcome/thumbnail.png",
+          "video_url": "https://app.ringcentral.com/assets/mobile/media/welcome/video.mp4"
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMessagesBtn",
+          "view_type": "RCTabRightCell",
+          "title": "Message",
+          "content": "Get more work done with built-in team messaging, file sharing, and task management.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMeetingsBtn",
+          "view_type": "RCTabRightCell",
+          "title": "Video",
+          "content": "Easily start, schedule, and join video meetings.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "tabMoreBtn",
+          "view_type": "RCTabCell",
+          "title": "More",
+          "content": "Access more features, and customize which tabs appear in the bottom navigation bar for quicker access.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "message walkthrough",
+      "id": "10002",
+      "delay_show": 0,
+      "priority": 102,
+      "activation": {
+        "page_view": "GlipUIRecentChatViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "2022.05.25",
+        "max_app_version": "",
+        "min_app_version": "22.2.20",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "Message"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "2022.05.25",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "tool_tip",
+          "accessibility": "MessageHeaderTabBar",
+          "view_type": "",
+          "title": "",
+          "content": "Access your direct messages, teams, and favorited conversations using the top navigation bar.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "barItemNewMsgBtn",
+          "view_type": "UIBarButtonItem",
+          "title": "",
+          "content": "Tap + to start a new message, invite contacts, or create new teams.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "phone walkthrough",
+      "id": "10003",
+      "delay_show": 20,
+      "priority": 100,
+      "activation": {
+        "page_view": "CallLogContainerViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "2022.05.25",
+        "max_app_version": "",
+        "min_app_version": "22.2.20",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "Phone"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "2022.05.25",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "tool_tip",
+          "accessibility": "PhoneHeaderTabBar",
+          "view_type": "",
+          "title": "",
+          "content": "Start a call or access your call history and voicemail using the top navigation bar.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    {
+      "name": "video walkthrough",
+      "id": "10004",
+      "delay_show": 20,
+      "priority": 100,
+      "activation": {
+        "page_view": "MeetingsViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "2022.05.25",
+        "max_app_version": "",
+        "min_app_version": "22.2.20",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "Video"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "2022.05.25",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "tool_tip",
+          "accessibility": "Start",
+          "view_type": "",
+          "title": "",
+          "content": "Instantly start a video meeting and invite people to join.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "Schedule",
+          "view_type": "",
+          "title": "",
+          "content": "Connect your Google or Outlook calendar to schedule your meetings.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "Join",
+          "view_type": "",
+          "title": "",
+          "content": "Invited to a meeting? Just copy and paste the meeting ID and you're good to go.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        },
+        {
+          "type": "tool_tip",
+          "accessibility": "PMIMoreButton",
+          "view_type": "",
+          "title": "",
+          "content": "Start a meeting instantly using your personal meeting ID or customize your settings.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}

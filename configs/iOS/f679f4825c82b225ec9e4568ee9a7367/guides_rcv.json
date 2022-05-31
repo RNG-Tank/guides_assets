@@ -1,0 +1,61 @@
+{
+  "guides": [
+    {
+      "name": "Recording and summary",
+      "id": "10005",
+      "delay_show": 0,
+      "priority": 101,
+      "activation": {
+        "page_view": "MeetingsViewController",
+        "frequency": ""
+      },
+      "segment": {
+        "first_sign_in_date": "",
+        "max_app_version": "",
+        "min_app_version": "22.2.30",
+        "rc_account_id": {
+          "reverse": false,
+          "value": []
+        },
+        "brand_id": [
+          "1210",
+          "3610",
+          "3710",
+          "2010",
+          "5010"
+        ],
+        "user_type": [],
+        "abtesting_group": [],
+        "permission": {
+          "type": "all",
+          "user_type_relation": "and",
+          "value": [
+            "RCV"
+          ]
+        }
+      },
+      "scheduling": {
+        "start_time": "",
+        "expiration_time": ""
+      },
+      "items": [
+        {
+          "type": "tool_tip",
+          "accessibility": "moreBarButton",
+          "view_type": "UIBarButtonItem",
+          "title": "Did you miss a meeting?",
+          "content": "Go to Recordings & summaries to view auto-generated meeting summaries, highlights, and more.",
+          "action_title": "",
+          "deep_link": "",
+          "next_guide_id": "",
+          "view_padding": [
+            0,
+            0,
+            0,
+            0
+          ]
+        }
+      ]
+    }
+  ]
+}
